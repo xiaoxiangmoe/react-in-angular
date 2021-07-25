@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularPageComponent } from './pages/angular-page/angular-page.component';
 import { ReactComponentInAngularComponent } from './pages/react-component-in-angular/react-component-in-angular.component';
+import { ReactPageInAngularComponent } from './pages/react-page-in-angular/react-page-in-angular.component';
 
 registerLocaleData(en);
 
@@ -22,6 +23,7 @@ registerLocaleData(en);
     AppComponent,
     AngularPageComponent,
     ReactComponentInAngularComponent,
+    ReactPageInAngularComponent,
   ],
   imports: [
     BrowserModule,
