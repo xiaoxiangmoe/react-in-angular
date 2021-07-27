@@ -13,11 +13,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularPageComponent } from './pages/angular-page/angular-page.component';
+import { ReactComponentInAngularComponent } from './pages/react-component-in-angular/react-component-in-angular.component';
 
 registerLocaleData(en);
 
 @NgModule({
-  declarations: [AppComponent, AngularPageComponent],
+  declarations: [
+    AppComponent,
+    AngularPageComponent,
+    ReactComponentInAngularComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
